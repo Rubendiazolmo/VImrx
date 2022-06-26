@@ -10,6 +10,13 @@ set backspace=2
 
 colorscheme desert
 
-map <S-t> :vert :term<CR>
-
 set splitbelow
+
+map <S-t> :term<CR>
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+map <F5> :!%<CR>
