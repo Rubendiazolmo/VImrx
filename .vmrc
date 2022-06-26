@@ -1,0 +1,15 @@
+set number
+set relativenumber
+syntax on
+set encoding=utf-8
+set clipboard=unnamed
+
+set guifont=consolas:h11
+
+set backspace=2
+
+colorscheme desert
+
+map <S-t> :vert :term<CR>
+
+set splitbelow
